@@ -12,15 +12,26 @@
 
 /* -------------------div 3-------------------- */
 
+
 .text-div3 {
 
     font-size: 4rem;
 }
 
+.saltn-peper {
+
+    font-size: 5rem;
+}
+
 .para-div3 {
 
     font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
 
+.div3-img {
+
+    margin-bottom: 3rem;
 }
 
 .para-3 {

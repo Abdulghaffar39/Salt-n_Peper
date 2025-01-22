@@ -16,11 +16,14 @@ body {
 
 /* fonts  */
 
-@import url("https://fonts.cdnfonts.com/css/apercu-pro");
+@font-face {
+    font-family: "Apercu";
+    src: url(../fonts/apercu/apercu_medium_pro.otf);
+}
 
-.Apercu {
+.apercu {
 
-    font-family: 'Apercu Pro', sans-serif;;
+    font-family: "Apercu";
 }
 
 @font-face {
@@ -30,7 +33,7 @@ body {
 
 @font-face {
   font-family: "futurak";
-  src: url(../fonts/Futurak/futurak\\(1\).ttf);
+  src: url(../fonts/Futurak/futurak\ \(1\).ttf);
 }
 
 .futurak {
@@ -246,4 +249,15 @@ body {
   font-size: 14px;
   font-weight: 400;
   border-radius: 2rem;
+}
+
+.btn-3 {
+  background-color: var(--bg-none);
+  color: var(--bg-white);
+  border: 1px solid var(--bg-gray);
+  font-size: 1.4rem;
+  padding: 12px 16px;
+  border-radius: 3rem;
+  width: 15rem;
+  cursor: pointer;
 }
