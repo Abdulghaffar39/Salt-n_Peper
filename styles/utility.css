@@ -1,0 +1,220 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* text  */
+
+.text-center {
+
+    text-align: center;
+}
+
+.text-start {
+
+    text-align: start;
+}
+
+/* bg-color */
+
+:root {
+
+    --bg-green: #008080;
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+}
+
+
+.bg-green {
+
+    background-color: var(--bg-green);
+}
+
+.bg-black {
+
+    background-color: var(--bg-black);
+}
+
+.bg-white {
+
+    background-color: var(--bg-white);
+}
+
+/* color */
+
+:root {
+
+    --bg-green: #008080;
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+}
+
+.color-white {
+
+    color: var(--bg-white);
+}
+
+.color-green {
+
+    color: var(--bg-green);
+}
+
+.color-black {
+
+    color: var(--bg-black);
+}
+
+
+/* flex */
+
+.f-display {
+
+    display: flex;
+}
+
+.f-column {
+
+    flex-direction: column;
+}
+
+.f-row {
+
+    flex-direction: row;
+}
+
+.justify-start {
+
+    justify-content: start;
+}
+
+.justify-center {
+
+    justify-content: center;
+}
+
+.justify-between {
+
+    justify-content: space-between;
+}
+
+.justify-around {
+
+    justify-content: space-around;
+}
+
+.f-wrap {
+
+    flex-wrap: wrap;
+}
+
+.align-start {
+
+    align-items: start;
+}
+
+.align-center {
+
+    align-items: center;
+}
+
+.align-between {
+
+    align-items: space-between;
+}
+
+.align-around {
+
+    align-items: space-around;
+}
+
+/* gap */
+
+.gap-1 {
+
+    gap: 5px;
+}
+.gap-2 {
+
+    gap: 10px;
+}
+.gap-3 {
+
+    gap: 15px;
+}
+.gap-3 {
+
+    gap: 20px;
+}
+.gap-5 {
+
+    gap: 25px;
+}
+
+/* margin */
+
+.margin-1 {
+
+    margin: 5px;
+}
+.margin-2 {
+
+    margin: 10px;
+}
+.margin-3 {
+
+    margin: 15px;
+}
+.margin-4 {
+
+    margin: 20px;
+}
+.margin-5{
+
+    margin: 25px;
+}
+
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+.poppins {
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "futurak";
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+.poppins {
+
+    font-family: "futurak", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.cursor-pointer {
+
+    cursor: pointer;
+}
+
+.bg-img-btn {
+
+    background-color: var(--bg-green);
+    color: var(--bg-white);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
