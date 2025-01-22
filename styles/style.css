@@ -1,0 +1,390 @@
+
+/* ----------------------div 1--------------------- */
+
+.container-1 {
+
+    gap: 280px;
+    font-size: 3.5rem;
+}
+
+
+/* -------------------div 2-------------------- */
+
+/* -------------------div 3-------------------- */
+
+.text-div3 {
+
+    font-size: 4rem;
+}
+
+.para-div3 {
+
+    font-size: 1.5rem;
+
+}
+
+.para-3 {
+
+   color: rgba(255, 255, 255, 0.7); 
+   margin-bottom: 50px;
+}
+
+.parent-3 {
+
+    flex-grow: 3;
+    gap: 30px;
+}
+
+
+.grand-3 {
+
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 50px;
+}
+
+.grand-3:hover {
+
+    background-color: #ffffff;
+    color: #ff0000;
+
+}
+
+/* -------------------div 4-------------------- */
+
+.children-4 {
+
+    height: 1500px;
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    color: white;
+}
+
+.img-4 {
+
+    position: absolute;
+    top: 1225px;
+    right: 0;
+}
+
+.text-4 {
+
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.child-4 {
+
+    width: 1130px;
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+.grand-child-4 {
+
+    width: 500px;
+
+}
+
+
+span {
+
+    font-size: 40px;
+}
+
+.para-4 {
+
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.p4 {
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+
+.btn-4 {
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 180px;
+    margin-top: 40px;
+}
+
+.btn-4:hover {
+
+    background-color: #ffffff;
+    color: #ed1c24;
+}
+
+
+/* -------------------div 5-------------------- */
+
+.children-5 {
+
+    background-color: #000000;
+    color:  #ffffff;
+    margin-bottom: 50px;
+}
+
+.container-5 {
+
+    margin-top: 80px;
+}
+
+#child-img-5 {
+
+    position: absolute;
+    top: 10000;
+
+}
+
+.parent-5 {
+
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.parent-img-5 {
+
+    gap: 40px;
+}
+
+.parent-text-5 {
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 300px;
+    gap: 90px;
+}
+
+.child-text-5 {
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.b5 {
+
+    font-size: 24px;
+}
+
+.para-5 {
+
+
+    font-size: 20px;
+}
+
+#btn-5 {
+
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 5px;
+
+}
+
+.text-5-div-2 {
+
+    gap: 200px;
+}
+
+.text-5-div-3 {
+
+    gap: 200px;
+}
+
+/* -------------------div 6-------------------- */
+
+.children-6 {
+
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    margin: 20px;
+}
+
+.parent-6 {
+
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.para-6 {
+
+    margin-bottom: 20px;
+}
+
+.btn-6 {
+
+    background-color:  #28a745;
+    width: 180px;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.child-6 {
+
+    gap: px;
+}
+
+
+
+.btn-6:hover {
+
+    background-color: #000000;
+    border: 1.5px solid #28a745;
+}
+
+.small-6 {
+
+    font-size: 1rem;
+}
+/* -------------------div 7-------------------- */
+
+
+
+.container-7 {
+
+    margin-top: 50px;
+}
+
+.para-7 {
+
+    font-size: 50px;
+
+}
+
+
+.braket {
+
+    font-size: 30px;
+}
+
+.parent-7-div-2 {
+
+    gap: 20px;
+    margin: 30px;
+}
+
+.child-7 {
+
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 3px;
+    width: 400px;
+    height: 250px;
+}
+
+.img-7 {
+
+    margin-top: 20px;
+}
+
+.small-7 {
+
+    font-size: 0.6rem;
+    letter-spacing: 6px;
+}
+
+.grand-child-7 {
+
+    font-size: 23px;
+    letter-spacing: 0.5px;
+}
+
+.font {
+
+    font-size: 1.3rem;
+}
+
+.opacity-7 {
+
+    color: #3d3d3d;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.parent-7-div-5 {
+
+    margin-top: 50px;
+}
+
+.img-7-div-6 {
+
+    gap: 16.5px;
+    margin-bottom: 40px;
+}
+ 
+/* -------------------div 8-------------------- */
+
+.children-8 {
+
+    background-color: rgba(255, 255, 255, 0.06);
+   width: 100%;
+    color: #ffffff;
+
+}
+
+.container-8 {
+
+
+
+    gap: 60px;
+}
+
+.margin-8 {
+
+    margin-bottom: 15px;
+}
+
+.width-8 {
+
+    width: 400px;
+}
+
+.width-8-div-3 {
+
+    width: 250px;
+}
+
+.font-8 {
+
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.img-8 {
+
+    position: absolute;
+    left: 0;
+    top: 7250px;
+}
+
+/* -------------------div 9-------------------- */
+
+.children-9 {
+
+    margin: 10px;
+ 
+}
+.parent-9 {
+
+    gap: 800px;
+    font-size: 14px;
+}

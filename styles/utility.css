@@ -1,220 +1,249 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* fonts  */
+
+@import url("https://fonts.cdnfonts.com/css/apercu-pro");
+
+.Apercu {
+
+    font-family: 'Apercu Pro', sans-serif;;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "futurak";
+  src: url(../fonts/Futurak/futurak\\(1\).ttf);
+}
+
+.futurak {
+  font-family: "futurak", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* text  */
 
 .text-center {
-
-    text-align: center;
+  text-align: center;
 }
 
 .text-start {
-
-    text-align: start;
+  text-align: start;
 }
 
 /* bg-color */
 
 :root {
-
-    --bg-green: #008080;
-    --bg-black: #000000;
-    --bg-white: #ffffff;
+  --bg-red: #ed1c24;
+  --bg-gray: #ffffffb3;
+  --bg-black: #000000;
+  --bg-dark: #212529;
+  --bg-white: #ffffff;
+  --bg-green: #28a745;
+  --bg-none: none;
 }
 
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.bg-none {
+  background-color: var(--bg-none);
+}
+
+.bg-red {
+  background-color: var(--bg-red);
+}
 
 .bg-green {
-
-    background-color: var(--bg-green);
+  background-color: var(--bg-green);
 }
 
 .bg-black {
+  background-color: var(--bg-black);
+}
 
-    background-color: var(--bg-black);
+.bg-dark {
+  background-color: var(--bg-dark);
 }
 
 .bg-white {
-
-    background-color: var(--bg-white);
+  background-color: var(--bg-white);
 }
 
 /* color */
 
 :root {
-
-    --bg-green: #008080;
-    --bg-black: #000000;
-    --bg-white: #ffffff;
+  --color-red: #ed1c24;
+  --color-gray: #ffffffb3;
+  --color-black: #000000;
+  --color-dark: #212529;
+  --color-white: #ffffff;
+  --color-green: #28a745;
+  --color-none: none;
 }
 
-.color-white {
+.color-gray {
+  color: var(--bg-gray);
+}
 
-    color: var(--bg-white);
+.color-red {
+  color: var(--bg-red);
+}
+
+.color-none {
+  color: var(--color-none);
 }
 
 .color-green {
-
-    color: var(--bg-green);
+  color: var(--bg-green);
 }
 
 .color-black {
-
-    color: var(--bg-black);
+  color: var(--bg-black);
 }
 
+.color-dark {
+  color: var(--bg-dark);
+}
+
+.color-white {
+  color: var(--bg-white);
+}
 
 /* flex */
 
 .f-display {
-
-    display: flex;
+  display: flex;
 }
 
 .f-column {
-
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .f-row {
-
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .justify-start {
-
-    justify-content: start;
+  justify-content: start;
 }
 
 .justify-center {
-
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-between {
-
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-around {
-
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .f-wrap {
-
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .align-start {
-
-    align-items: start;
+  align-items: start;
 }
 
 .align-center {
-
-    align-items: center;
+  align-items: center;
 }
 
 .align-between {
-
-    align-items: space-between;
+  align-items: space-between;
 }
 
 .align-around {
-
-    align-items: space-around;
+  align-items: space-around;
 }
 
 /* gap */
 
 .gap-1 {
-
-    gap: 5px;
+  gap: 5px;
 }
 .gap-2 {
-
-    gap: 10px;
+  gap: 10px;
 }
 .gap-3 {
-
-    gap: 15px;
+  gap: 15px;
 }
 .gap-3 {
-
-    gap: 20px;
+  gap: 20px;
 }
 .gap-5 {
-
-    gap: 25px;
+  gap: 25px;
 }
 
 /* margin */
 
 .margin-1 {
-
-    margin: 5px;
+  margin: 5px;
 }
 .margin-2 {
-
-    margin: 10px;
+  margin: 10px;
 }
 .margin-3 {
-
-    margin: 15px;
+  margin: 15px;
 }
 .margin-4 {
-
-    margin: 20px;
+  margin: 20px;
 }
-.margin-5{
-
-    margin: 25px;
+.margin-5 {
+  margin: 25px;
 }
-
-
-@font-face {
-    font-family: poppins;
-    src: url(../fonts/poppins/Poppins-Medium.ttf);
-}
-
-.poppins {
-
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: "futurak";
-    src: url(../fonts/poppins/Poppins-Medium.ttf);
-}
-
-.poppins {
-
-    font-family: "futurak", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 .cursor-pointer {
-
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.bg-img-btn {
+.nav-btn-1 {
+  background-color: var(--bg-none);
+  color: var(--bg-white);
+  border: 1px solid var(--bg-white);
+  font-size: 1.4rem;
+  padding: 12px 16px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
 
-    background-color: var(--bg-green);
-    color: var(--bg-white);
-    border: none;
-    font-size: 1.5rem;
-    padding: 0.8rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
+.nav-btn-2 {
+  background-color: var(--bg-red);
+  color: var(--bg-white);
+  border: 1px solid var(--bg-none);
+  font-size: 1.4rem;
+  padding: 12px 13px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  background-color: var(--bg-white);
+  color: var(--bg-red);
+  padding: 6px 7px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 2rem;
 }
