@@ -12,6 +12,10 @@
 
 /* -------------------div 3-------------------- */
 
+.container-3 {
+
+    margin: 100px;
+}
 
 .text-div3 {
 
@@ -34,235 +38,166 @@
     margin-bottom: 3rem;
 }
 
-.para-3 {
-
-   color: rgba(255, 255, 255, 0.7); 
-   margin-bottom: 50px;
-}
-
-.parent-3 {
-
-    flex-grow: 3;
-    gap: 30px;
-}
-
-
-.grand-3 {
-
-    margin-top: 20px;
-    padding: 15px;
-    cursor: pointer;
-    border-radius: 50px;
-    font-size: 14px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    margin-bottom: 50px;
-}
-
-.grand-3:hover {
-
-    background-color: #ffffff;
-    color: #ff0000;
-
-}
-
 /* -------------------div 4-------------------- */
-
-.children-4 {
-
-    height: 1500px;
-    background-color: rgba(255, 255, 255, 0.06);
-    width: 100%;
-    color: white;
-}
 
 .img-4 {
 
     position: absolute;
-    top: 1225px;
+    top: 1350px;
     right: 0;
 }
 
-.text-4 {
+.children-4 {
 
-    width: 70%;
-    height: 200px;
-    text-align: center;
-    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
-.child-4 {
+.container-head-4 {
 
-    width: 1130px;
-    height: 350px;
-    margin-bottom: 50px;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 
-.grand-child-4 {
+.container-4 {
 
-    width: 500px;
-
+    gap: 4rem;
 }
 
+.parent-4 {
 
-span {
+    gap: 27rem;
+}
 
-    font-size: 40px;
+.faisalabad {
+
+    gap: 3.5rem;
 }
 
 .para-4 {
 
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 5rem;
+
 }
 
 .p4 {
 
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
+    font-size: 1.5rem;
+    color: var(--color-gray);
 }
 
+.islamabad {
 
-.btn-4 {
-
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50px;
-    width: 180px;
-    margin-top: 40px;
+    font-size: 1.3rem;
+    letter-spacing: 0.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
-.btn-4:hover {
+.islamabad-saltn-peper {
 
-    background-color: #ffffff;
-    color: #ed1c24;
+    font-size: 3rem;
 }
 
+.islamabad-restaurant {
+
+    font-size: 3rem;
+    margin: 1rem 0rem;
+}
+
+.adress {
+
+    font-size: 1.5rem;
+    word-spacing: 0.2rem;
+    line-height: 3rem;
+}
+
+.phone {
+
+    margin-bottom: 6rem;
+}
+
+.icon {
+
+    font-size: 1.5rem;
+}
 
 /* -------------------div 5-------------------- */
 
-.children-5 {
-
-    background-color: #000000;
-    color:  #ffffff;
-    margin-bottom: 50px;
-}
-
 .container-5 {
 
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
-#child-img-5 {
+.bg-img-5 {
 
     position: absolute;
-    top: 10000;
-
 }
 
 .parent-5 {
 
     font-size: 3rem;
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
-.parent-img-5 {
+.sargodha {
 
-    gap: 40px;
-}
-
-.parent-text-5 {
-
-    margin-top: 15px;
-    margin-bottom: 20px;
-    height: 300px;
-    gap: 90px;
-}
-
-.child-text-5 {
-
-    text-align: center;
-    line-height: 40px;
-}
-
-.b5 {
-
-    font-size: 24px;
+    font-size: 1.4rem;
+    letter-spacing: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .para-5 {
 
-
-    font-size: 20px;
+    font-size: 2.5rem;
 }
 
-#btn-5 {
+.adress-5 {
 
-    margin: 0px auto;
-    margin-top: 60px;
-    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.child-text-5 {
+
+    line-height: 40px;
+}
+
+.Express {
+
+    gap: 3rem;
+    line-height: 0.5rem;
+}
+
+.Express-2 {
+
+    line-height: 2.5rem;
 
 }
 
-.text-5-div-2 {
+.Directions {
 
-    gap: 200px;
+    margin-top: 4rem;
 }
 
-.text-5-div-3 {
-
-    gap: 200px;
-}
 
 /* -------------------div 6-------------------- */
 
-.children-6 {
 
-    background-color: rgba(255, 255, 255, 0.06);
-    width: 100%;
-    margin: 20px;
-}
+.line-hei {
 
-.parent-6 {
-
-    font-size: 3rem;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    gap: 20px;
+    line-height: 2.5rem;
 }
 
 .para-6 {
 
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 
-.btn-6 {
+.green-btn {
 
-    background-color:  #28a745;
-    width: 180px;
-    padding: 10px;
-    margin-top: 50px;
-    cursor: pointer;
-    border-radius: 50px;
-}
-
-.child-6 {
-
-    gap: px;
-}
-
-
-
-.btn-6:hover {
-
-    background-color: #000000;
-    border: 1.5px solid #28a745;
-}
-
-.small-6 {
-
-    font-size: 1rem;
+    margin-top: 6rem;
 }
 /* -------------------div 7-------------------- */
 

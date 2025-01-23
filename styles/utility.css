@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  border: 1px solid white;
 
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -17,6 +18,11 @@ body {
 /* fonts  */
 
 @font-face {
+  font-family: poppins;
+  src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
     font-family: "Apercu";
     src: url(../fonts/apercu/apercu_medium_pro.otf);
 }
@@ -27,8 +33,13 @@ body {
 }
 
 @font-face {
-  font-family: poppins;
-  src: url(../fonts/poppins/Poppins-Medium.ttf);
+  font-family: "butler";
+  src: url(../fonts/butler/Butler_Regular.otf);
+}
+
+.butler {
+
+  font-family: "butler";
 }
 
 @font-face {
@@ -52,10 +63,18 @@ body {
   text-align: start;
 }
 
+/* z index */
+
+.z-index {
+
+  z-index: 1;
+}
+
+
 /* bg-color */
 
 :root {
-  --bg-red: #ed1c24;
+  --bg-red: #ED1C24;
   --bg-gray: #ffffffb3;
   --bg-black: #000000;
   --bg-dark: #212529;
@@ -95,7 +114,7 @@ body {
 /* color */
 
 :root {
-  --color-red: #ed1c24;
+  --color-red: #ED1C24;
   --color-gray: #ffffffb3;
   --color-black: #000000;
   --color-dark: #212529;
@@ -222,6 +241,35 @@ body {
   cursor: pointer;
 }
 
+/* font size */
+
+.font-1 {
+
+  font-size: 1rem;
+}
+
+.font-2 {
+
+  font-size: 2rem;
+}
+
+.font-3 {
+
+  font-size: 3rem;
+}
+.font-4 {
+
+  font-size: 4rem;
+}
+.font-5 {
+
+  font-size: 5rem;
+}
+
+
+
+/* buttons */
+
 .nav-btn-1 {
   background-color: var(--bg-none);
   color: var(--bg-white);
@@ -231,6 +279,8 @@ body {
   border-radius: 3rem;
   cursor: pointer;
 }
+
+/* red arrow button start */
 
 .nav-btn-2 {
   background-color: var(--bg-red);
@@ -251,6 +301,8 @@ body {
   border-radius: 2rem;
 }
 
+/* red arrow button ended */
+
 .btn-3 {
   background-color: var(--bg-none);
   color: var(--bg-white);
@@ -260,4 +312,45 @@ body {
   border-radius: 3rem;
   width: 15rem;
   cursor: pointer;
+}
+
+/* arrow transparant button started */
+.btn-4 {
+
+  background-color: var(--bg-none);
+  color: var(--bg-white);
+  border: 1px solid var(--color-gray);
+  font-size: 1.4rem;
+  padding: 12px 13px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  background-color: var(--bg-white);
+  color: var(--bg-red);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 2rem;
+}
+/* arrow transparant button ended */
+
+.btn-5 {
+
+  background-color: var(--bg-green);
+  color: var(--bg-white);
+  border: 1px solid var(--color-green);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  padding: 12px 13px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  background-color: var(--bg-white);
+  color: var(--bg-green);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 2rem;
 }
