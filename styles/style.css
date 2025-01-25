@@ -4,7 +4,11 @@
 .container-1 {
 
     gap: 280px;
-    font-size: 3.5rem;
+    font-size: 4rem;
+}
+
+.navbar {
+    
 }
 
 
@@ -46,12 +50,7 @@
     top: 1350px;
     right: 0;
 }
-
-.children-4 {
-
-    background-color: rgba(255, 255, 255, 0.06);
-}
-
+ 
 .container-head-4 {
 
     margin-top: 8rem;
@@ -80,9 +79,7 @@
 }
 
 .p4 {
-
-    font-size: 1.5rem;
-    color: var(--color-gray);
+    font-size: 1.6rem;
 }
 
 .islamabad {
@@ -111,14 +108,14 @@
     line-height: 3rem;
 }
 
-.phone {
-
-    margin-bottom: 6rem;
-}
 
 .icon {
 
     font-size: 1.5rem;
+}
+
+.div-4 {
+    margin: 4rem;
 }
 
 /* -------------------div 5-------------------- */
@@ -129,8 +126,8 @@
 }
 
 .bg-img-5 {
-
     position: absolute;
+    margin-top: 1rem;
 }
 
 .parent-5 {
@@ -184,6 +181,10 @@
 
 /* -------------------div 6-------------------- */
 
+.container-6 {
+
+    padding: 2rem 0rem;
+}
 
 .line-hei {
 
@@ -199,71 +200,38 @@
 
     margin-top: 6rem;
 }
+
+.img-div-5 {
+
+    margin-bottom: 4rem;
+}
+
 /* -------------------div 7-------------------- */
 
-
-
-.container-7 {
-
-    margin-top: 50px;
-}
-
-.para-7 {
-
-    font-size: 50px;
-
-}
-
-
-.braket {
-
-    font-size: 30px;
-}
-
-.parent-7-div-2 {
-
-    gap: 20px;
-    margin: 30px;
-}
-
 .child-7 {
-
     border: 1px solid #ffffff;
-    background-color: #ffffff;
-    color: #000000;
     border-radius: 3px;
     width: 400px;
     height: 250px;
+    line-height: 3rem;
 }
 
 .img-7 {
-
     margin-top: 20px;
 }
 
 .small-7 {
-
-    font-size: 0.6rem;
     letter-spacing: 6px;
 }
 
 .grand-child-7 {
 
-    font-size: 23px;
     letter-spacing: 0.5px;
 }
+/* Social Feed */
 
-.font {
-
-    font-size: 1.3rem;
-}
-
-.opacity-7 {
-
-    color: #3d3d3d;
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 50px;
+.social-feed {
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 .parent-7-div-5 {
@@ -272,31 +240,19 @@
 }
 
 .img-7-div-6 {
-
-    gap: 16.5px;
     margin-bottom: 40px;
 }
  
 /* -------------------div 8-------------------- */
 
-.children-8 {
-
-    background-color: rgba(255, 255, 255, 0.06);
-   width: 100%;
-    color: #ffffff;
-
-}
-
 .container-8 {
-
-
-
-    gap: 60px;
+    margin: 0rem 18rem;
+    gap: 2rem;
 }
 
-.margin-8 {
+.parent-8 {
 
-    margin-bottom: 15px;
+    margin: 8rem 0rem;
 }
 
 .width-8 {
@@ -309,17 +265,32 @@
     width: 250px;
 }
 
-.font-8 {
-
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 30px;
+.para-8 {
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 
 .img-8 {
 
     position: absolute;
-    left: 0;
-    top: 7250px;
+    left: 4rem;
+    top: 7210px;
+}
+
+.head-8 {
+    font-size: 1.6rem;
+}
+
+.site-link {
+    font-size: 1.4rem;
+}
+
+.contact {
+    width: 25%;
+}
+
+.head-office {
+    font-size: 1.6rem;
 }
 
 /* -------------------div 9-------------------- */
@@ -332,5 +303,5 @@
 .parent-9 {
 
     gap: 800px;
-    font-size: 14px;
+    font-size: 2.2rem;
 }
