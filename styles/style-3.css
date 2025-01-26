@@ -1,0 +1,102 @@
+
+/* -----navbar started------ */
+.container-nav {
+    border-bottom: 1px solid var(--color-dark);
+    gap: 25rem;
+}
+
+.nav {
+    font-size: 1.5rem;
+}
+
+/* ---------div 1--------- */
+.container-1 {
+    margin: 7rem 18rem;
+    gap: 2rem;
+}
+
+.parent-1 {
+    border: 1px solid #ffffff52;
+}
+
+/* ----------div 2---------- */
+.container {
+    margin-bottom: 8rem;
+}
+.head {
+    margin-bottom: 5rem;
+}
+
+.head-2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.para-1 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+/* -------------------footer-------------------- */
+
+.container-8 {
+    margin: 0rem 18rem;
+    gap: 2rem;
+}
+
+.parent-8 {
+    margin: 6.5rem 0rem;
+}
+
+.width-8 {
+
+    width: 400px;
+}
+
+.width-8-div-3 {
+
+    width: 250px;
+}
+
+.para-8 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.img-8 {
+
+    position: absolute;
+    left: 4rem;
+    top: 1670px;
+}
+
+.head-8 {
+    font-size: 1.6rem;
+}
+
+.site-link {
+    font-size: 1.4rem;
+}
+
+.contact {
+    width: 25%;
+}
+
+.head-office {
+    font-size: 1.6rem;
+}
+
+/* -------------------div 9-------------------- */
+
+.children-9 {
+
+    margin: 10px;
+ 
+}
+.parent-9 {
+
+    gap: 800px;
+    font-size: 2.2rem;
+}
+
+

@@ -1,0 +1,82 @@
+/* -----navbar started------ */
+.container-nav {
+    border-bottom: 1px solid var(--color-dark);
+    gap: 25rem;
+}
+
+.nav {
+    font-size: 1.5rem;
+}
+
+/* -------form salt'n peper------- */
+.form-1 {
+    width: 90%;
+    height: 500px;
+    padding: 40%;
+}
+
+
+
+
+
+/* -------------------footer-------------------- */
+
+.container-8 {
+    margin: 0rem 18rem;
+    gap: 2rem;
+}
+
+.parent-8 {
+    margin: 6.5rem 0rem;
+}
+
+.width-8 {
+
+    width: 400px;
+}
+
+.width-8-div-3 {
+
+    width: 250px;
+}
+
+.para-8 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.img-8 {
+
+    position: absolute;
+    left: 4rem;
+    top: 5010px;
+}
+
+.head-8 {
+    font-size: 1.6rem;
+}
+
+.site-link {
+    font-size: 1.4rem;
+}
+
+.contact {
+    width: 25%;
+}
+
+.head-office {
+    font-size: 1.6rem;
+}
+
+/* -------------------div 9-------------------- */
+
+.children-9 {
+
+    margin: 10px;
+ 
+}
+.parent-9 {
+
+    gap: 800px;
+    font-size: 2.2rem;
+}
