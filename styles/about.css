@@ -37,8 +37,13 @@
     margin: 0rem 15rem;
 }
 
+.center {
+    margin-bottom: 5rem;
+}
+
 .child-2 {
     gap: 6.5rem;
+    margin-bottom: 5rem;
 }
 
 .para-2 {
@@ -48,11 +53,11 @@
 
 /* ------- box-3 started------ */
 .container-3 {
-    margin: 3rem 15rem;
+    margin: 0rem 15rem;
 }
 
 .parent-3 {
-    margin: 5rem 0rem;
+    margin-bottom: 5rem;
 }
 
 .para-3 {
@@ -60,6 +65,9 @@
 }
 
 /* ------- box-4 started------ */
+.one-div {
+    margin: 4rem 0rem;
+}
 .child-4 {
     width: 40rem;
     height: 44rem;
@@ -73,6 +81,85 @@
 
 .para-4 {
     font-size: 1.3rem;
+}
+
+/* ------- box-4 started------ */
+.parent-5 {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+.gujranwala {
+    font-size: 1.4rem;
+}
+
+.adress {
+    font-size: 1.5rem;
+}
+
+#box-last {
+    margin-bottom: 8rem;
+}
+
+/* -------------------footer-------------------- */
+
+.container-8 {
+    margin: 0rem 18rem;
+    gap: 2rem;
+}
+
+.parent-8 {
+    margin: 6.5rem 0rem;
+}
+
+.width-8 {
+
+    width: 400px;
+}
+
+.width-8-div-3 {
+
+    width: 250px;
+}
+
+.para-8 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.img-8 {
+
+    position: absolute;
+    left: 4rem;
+    top: 5010px;
+}
+
+.head-8 {
+    font-size: 1.6rem;
+}
+
+.site-link {
+    font-size: 1.4rem;
+}
+
+.contact {
+    width: 25%;
+}
+
+.head-office {
+    font-size: 1.6rem;
+}
+
+/* -------------------div 9-------------------- */
+
+.children-9 {
+
+    margin: 10px;
+ 
+}
+.parent-9 {
+
+    gap: 800px;
+    font-size: 2.2rem;
 }
 
 
