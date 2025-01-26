@@ -7,10 +7,10 @@
 .nav {
     font-size: 1.5rem;
 }
-/* -----navbar ended------ */
+
 
 /* ------- box-1 started------ */
-.container {
+.container-1 {
     margin: 8rem 15rem;
 }
 
@@ -21,7 +21,7 @@
 .para-1 {
     font-size: 1.6rem;
 }
-/* ------- box-1 ended------ */
+
 
 
 /* ------- box-2 started------ */
@@ -29,22 +29,28 @@
     margin-bottom: 5rem;
 }
 
-.parent-2 {
-
+.container-2 {
+    margin: 0rem 15rem;
 }
+
 .child-2 {
     gap: 6.5rem;
-    margin-bottom: 4rem;
 }
-
-
 
 .para-2 {
     font-size: 1.6rem;
 }
-/* ------- box-2 ended------ */
 
 
-/* ------- box-2 started------ */
+/* ------- box-3 started------ */
+.container-3 {
+    margin: 3rem 15rem;
+}
 
-/* ------- box-2 ended------ */
+.parent-3 {
+    margin: 5rem 0rem;
+}
+
+.para-3 {
+    font-size: 1.4rem;
+}
