@@ -1,0 +1,28 @@
+/* -----navbar started------ */
+.container-nav {
+    border-bottom: 1px solid var(--color-dark);
+    gap: 25rem;
+}
+
+.nav {
+    font-size: 1.5rem;
+}
+/* -----navbar ended------ */
+
+/* ------- box-1 started------ */
+.container {
+    margin: 8rem 18rem;
+}
+
+.head-1 {
+    margin-bottom: 4rem;
+}
+
+.para-1 {
+    font-size: 1.6rem;
+}
+/* ------- box-1 ended------ */
+
+/* ------- box-2 started------ */
+
+/* ------- box-2 ended------ */

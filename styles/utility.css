@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   font-size: 62.5%;
+  border: 1px solid #ffffff;
 
   font-family: "Poppins", serif;
   font-weight: 200;
@@ -398,8 +400,7 @@ body {
 
 
 
-/* buttons */
-
+/* buttons 1 */
 .nav-btn-1 {
   background-color: var(--bg-none);
   color: var(--bg-white);
@@ -410,8 +411,15 @@ body {
   cursor: pointer;
 }
 
-/* red arrow button start */
+.nav-btn-1:hover {
 
+  background-color: #ffffff;
+  color: #000000;
+}
+/* button 2 */
+
+
+/* red arrow button start */
 .nav-btn-2 {
   background-color: var(--bg-red);
   color: var(--bg-white);
@@ -420,6 +428,12 @@ body {
   padding: 12px 13px;
   border-radius: 3rem;
   cursor: pointer;
+}
+
+.nav-btn-2:hover {
+
+  background-color: #ffffff;
+  color: red;
 }
 
 .arrow-btn {
@@ -431,8 +445,14 @@ body {
   border-radius: 2rem;
 }
 
+.arrow-btn:hover {
+  background-color: red;
+  color: white;
+}
 /* red arrow button ended */
 
+
+/* button 3 */
 .btn-3 {
   background-color: var(--bg-none);
   color: var(--bg-white);
@@ -444,6 +464,14 @@ body {
   cursor: pointer;
 }
 
+.btn-3:hover {
+
+  background-color: #ffffff;
+  color: #000000;
+}
+/* button 3 */
+
+
 /* arrow transparant button started */
 .btn-4 {
 
@@ -454,6 +482,11 @@ body {
   padding: 12px 13px;
   border-radius: 3rem;
   cursor: pointer;
+}
+
+.btn-4:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .arrow-btn {
@@ -477,13 +510,20 @@ body {
   cursor: pointer;
 }
 
+.btn-5:hover {
+
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid transparent;
+}
+
 .arrow-btn {
   background-color: var(--bg-white);
   color: var(--bg-red);
   font-size: 14px;
   font-weight: 400;
   border-radius: 2rem;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .arrow-btn-green {
