@@ -11,7 +11,7 @@
 
 /* ------- box-1 started------ */
 .container {
-    margin: 8rem 18rem;
+    margin: 8rem 15rem;
 }
 
 .head-1 {
@@ -22,6 +22,28 @@
     font-size: 1.6rem;
 }
 /* ------- box-1 ended------ */
+
+
+/* ------- box-2 started------ */
+.div-2 {
+    margin-bottom: 5rem;
+}
+
+.parent-2 {
+
+}
+.child-2 {
+    gap: 6.5rem;
+    margin-bottom: 4rem;
+}
+
+
+
+.para-2 {
+    font-size: 1.6rem;
+}
+/* ------- box-2 ended------ */
+
 
 /* ------- box-2 started------ */
 

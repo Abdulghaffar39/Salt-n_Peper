@@ -207,6 +207,10 @@ body {
   flex-wrap: wrap;
 }
 
+.f-nowrap {
+  flex-wrap: nowrap;
+}
+
 .align-start {
   align-items: start;
 }
