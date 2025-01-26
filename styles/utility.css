@@ -372,9 +372,14 @@ body {
 }
 /* margin left right ended */
 
-
+/* cursor pointer */
 .cursor-pointer {
   cursor: pointer;
+}
+
+/* boarder radius */
+.border-radius {
+  border-radius: 6px;
 }
 
 /* font size */

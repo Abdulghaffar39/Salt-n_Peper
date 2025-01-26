@@ -1,3 +1,7 @@
+.container {
+    margin: 0rem 15rem;
+}
+
 /* -----navbar started------ */
 .container-nav {
     border-bottom: 1px solid var(--color-dark);
@@ -54,3 +58,22 @@
 .para-3 {
     font-size: 1.4rem;
 }
+
+/* ------- box-4 started------ */
+.child-4 {
+    width: 40rem;
+    height: 44rem;
+    background-color: var(--color-dark);
+    border-radius: 2rem;
+}
+
+.head-4 {
+    font-size: 1.5rem;
+}
+
+.para-4 {
+    font-size: 1.3rem;
+}
+
+
+
