@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snp Main</title>
 
-    <link rel="stylesheet" href="./styles/style-3.css">
+    <link rel="stylesheet" href="./styles/style-4.css">
     <link rel="stylesheet" href="./styles/utility.css">
 
 </head>
+
 <body>
 
-     <!-- navbar started -->
+    <!-- navbar started -->
     <header>
         <div class="container-nav margin-tb2 f-display f-row f-wrap justify-around align-center">
 
@@ -33,23 +35,92 @@
     <!-- navbar ended -->
 
     <main>
-        <div class="f-display f-column justify-between f-wrap align-center">
+        <div class="container f-display f-column justify-between f-wrap align-center">
 
-            <h2 class="text-center butler font-4">Get a Franchise</h2>
+            <h2 class="head text-center butler font-4">Get a Franchise</h2>
 
-            <div class="parent-1 f-display f-row justify-between f-wrap align-center">
-                <div class="form">
-                    <form>
-                        <label for="name" class="font-3">Name</label><br />
-                        <input type="text" id="name" required>
-                    </form>
+        <form>         
+            <div class="parent-1 f-display f-row justify-center f-wrap align-center gap-5">
+                        
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="name" class="apercu margin-b3 color-gray">Name</label>
+                    <input type="text" name="name" class="color-light-gray" id="name" required>
+                    
                 </div>
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="email" class="apercu margin-b3 color-gray">Email</label>
+                    <input type="email" class="color-light-gray" name="email" id="email" required>
+                </div>
+
+<!-- -------------------------------------------------------- -->
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="number" class="apercu margin-b3 color-gray">Phone Number</label>
+                    <input type="number" class="color-light-gray" name="number" id="number" required>
+                    
+                </div>
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="number" class="apercu margin-b3 color-gray">Mobile Number</label>
+                    <input type="number" class="color-light-gray" name="number" id="number" required>
+                </div>
+
+<!-- --------------------------------------------------------- -->
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="city" class="apercu margin-b3 color-gray">City</label>
+                    <input type="text" class="color-light-gray" name="city" id="city" required>
+                    
+                </div>
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="province" class="apercu margin-b3 color-gray">Province</label>
+                    <input type="text" class="color-light-gray" name="province" id="province" required>
+                </div>
+
+<!-- ------------------------------------------------------------ -->
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="country" class="apercu margin-b3 color-gray">Country</label>
+                    <input type="text" class="color-light-gray" name="country" id="Country" required>
+                    
+                </div>
+
+                <div class="child-1 f-display f-column justify-start f-wrap align-start">
+
+                    <label for="brach" class="apercu margin-b3 color-gray">Brach</label>
+
+                    <select name="brach" id="brach">
+
+                        <option value="select">Which brach are you interested in</option>
+                        <option value="brach">Salt'n Pepper Restaurant</option>
+                        <option value="brach">Salt'n Pepper Village</option>
+                        <option value="brach">Salt'n Pepper Express</option>
+
+                    </select>
+                </div>
+<!-- ------------------------------------------------------------ -->
+                <div class="submit">
+                    <button class="button">
+                        SUBMIT
+                    </button>
+                </div>
+
             </div>
-            
+        </form>
         </div>
     </main>
 
-    <footer>
+
+<footer>
     <div class="children-8 bg-dark color-white z-index" id="box-8">
 
       <div class="container-8 z-index f-display f-row justify-between f-wrap align-start">
@@ -146,4 +217,5 @@
 
     <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

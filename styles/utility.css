@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-size: 62.5%;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
 
   font-family: "Poppins", serif;
   font-weight: 200;
@@ -87,6 +87,7 @@ body {
 
 :root {
   --bg-red: #ED1C24;
+  --bg-yellow: #ffbf00;
   --bg-gray: #ffffffb3;
   --bg-black: #000000;
   --bg-dark: #ffffff0f;
@@ -98,6 +99,10 @@ body {
 
 .bg-light-gray {
   background-color: var(--bg-light-gray);
+}
+
+.bg-yellow {
+  background-color: var(--bg-yellow);
 }
 
 .bg-gray {
@@ -132,6 +137,7 @@ body {
 
 :root {
   --color-red: #ED1C24;
+  --color-yellow: #ffca2c;
   --color-gray: #ffffffb3;
   --color-black: #000000;
   --color-dark: #ffffff0f;
@@ -143,6 +149,10 @@ body {
 
 .color-light-gray {
   color: var(--color-light-gray);
+}
+
+.color-yellow {
+  color: var(--color-yellow);
 }
 
 .color-gray {
@@ -421,10 +431,11 @@ body {
 }
 
 .nav-btn-1:hover {
-
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
+
+
 /* button 2 */
 
 
@@ -440,9 +451,8 @@ body {
 }
 
 .nav-btn-2:hover {
-
-  background-color: #ffffff;
-  color: red;
+  background-color: var(--color-white);
+  color: var(--color-red);
 }
 
 .arrow-btn {
@@ -454,10 +464,6 @@ body {
   border-radius: 2rem;
 }
 
-.arrow-btn:hover {
-  background-color: red;
-  color: white;
-}
 /* red arrow button ended */
 
 
@@ -474,9 +480,8 @@ body {
 }
 
 .btn-3:hover {
-
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 /* button 3 */
 
@@ -485,7 +490,7 @@ body {
 .btn-4 {
 
   background-color: var(--bg-none);
-  color: var(--bg-white);
+  color: var(--color-white);
   border: 1px solid var(--color-gray);
   font-size: 1.4rem;
   padding: 12px 13px;
@@ -494,13 +499,13 @@ body {
 }
 
 .btn-4:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .arrow-btn {
   background-color: var(--bg-white);
-  color: var(--bg-red);
+  color: var(--color-black);
   font-size: 14px;
   font-weight: 400;
   border-radius: 2rem;
@@ -510,7 +515,7 @@ body {
 .btn-5 {
 
   background-color: var(--bg-green);
-  color: var(--bg-white);
+  color: var(--color-white);
   border: 1px solid var(--color-green);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
@@ -519,16 +524,10 @@ body {
   cursor: pointer;
 }
 
-.btn-5:hover {
-
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid transparent;
-}
 
 .arrow-btn {
   background-color: var(--bg-white);
-  color: var(--bg-red);
+  color: var(--color-red);
   font-size: 14px;
   font-weight: 400;
   border-radius: 2rem;
@@ -537,7 +536,7 @@ body {
 
 .arrow-btn-green {
   background-color: var(--bg-white);
-  color: var(--bg-green);
+  color: var(--color-green);
   font-size: 14px;
   font-weight: 400;
   border-radius: 2rem;
