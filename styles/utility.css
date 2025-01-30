@@ -156,11 +156,11 @@ body {
 }
 
 .color-gray {
-  color: var(--bg-gray);
+  color: var(--color-gray);
 }
 
 .color-red {
-  color: var(--bg-red);
+  color: var(--color-red);
 }
 
 .color-none {
@@ -168,19 +168,19 @@ body {
 }
 
 .color-green {
-  color: var(--bg-green);
+  color: var(--color-green);
 }
 
 .color-black {
-  color: var(--bg-black);
+  color: var(--color-black);
 }
 
 .color-dark {
-  color: var(--bg-dark);
+  color: var(--color-dark);
 }
 
 .color-white {
-  color: var(--bg-white);
+  color: var(--colo-white);
 }
 
 /* flex */
